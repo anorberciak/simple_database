@@ -57,90 +57,90 @@ include CMakeFiles/simple_database.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/simple_database.dir/flags.make
 
-CMakeFiles/simple_database.dir/main.o: CMakeFiles/simple_database.dir/flags.make
-CMakeFiles/simple_database.dir/main.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_database.dir/main.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_database.dir/main.o -c /home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp
+CMakeFiles/simple_database.dir/main.cpp.o: CMakeFiles/simple_database.dir/flags.make
+CMakeFiles/simple_database.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_database.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_database.dir/main.cpp.o -c /home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp
 
-CMakeFiles/simple_database.dir/main.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_database.dir/main.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp > CMakeFiles/simple_database.dir/main.i
+CMakeFiles/simple_database.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_database.dir/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp > CMakeFiles/simple_database.dir/main.cpp.i
 
-CMakeFiles/simple_database.dir/main.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_database.dir/main.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp -o CMakeFiles/simple_database.dir/main.s
+CMakeFiles/simple_database.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_database.dir/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp -o CMakeFiles/simple_database.dir/main.cpp.s
 
-CMakeFiles/simple_database.dir/main.o.requires:
+CMakeFiles/simple_database.dir/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/simple_database.dir/main.o.requires
+.PHONY : CMakeFiles/simple_database.dir/main.cpp.o.requires
 
-CMakeFiles/simple_database.dir/main.o.provides: CMakeFiles/simple_database.dir/main.o.requires
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/main.o.provides.build
-.PHONY : CMakeFiles/simple_database.dir/main.o.provides
+CMakeFiles/simple_database.dir/main.cpp.o.provides: CMakeFiles/simple_database.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/simple_database.dir/main.cpp.o.provides
 
-CMakeFiles/simple_database.dir/main.o.provides.build: CMakeFiles/simple_database.dir/main.o
-
-
-CMakeFiles/simple_database.dir/DataBase.o: CMakeFiles/simple_database.dir/flags.make
-CMakeFiles/simple_database.dir/DataBase.o: ../DataBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simple_database.dir/DataBase.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_database.dir/DataBase.o -c /home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp
-
-CMakeFiles/simple_database.dir/DataBase.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_database.dir/DataBase.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp > CMakeFiles/simple_database.dir/DataBase.i
-
-CMakeFiles/simple_database.dir/DataBase.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_database.dir/DataBase.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp -o CMakeFiles/simple_database.dir/DataBase.s
-
-CMakeFiles/simple_database.dir/DataBase.o.requires:
-
-.PHONY : CMakeFiles/simple_database.dir/DataBase.o.requires
-
-CMakeFiles/simple_database.dir/DataBase.o.provides: CMakeFiles/simple_database.dir/DataBase.o.requires
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/DataBase.o.provides.build
-.PHONY : CMakeFiles/simple_database.dir/DataBase.o.provides
-
-CMakeFiles/simple_database.dir/DataBase.o.provides.build: CMakeFiles/simple_database.dir/DataBase.o
+CMakeFiles/simple_database.dir/main.cpp.o.provides.build: CMakeFiles/simple_database.dir/main.cpp.o
 
 
-CMakeFiles/simple_database.dir/Student.o: CMakeFiles/simple_database.dir/flags.make
-CMakeFiles/simple_database.dir/Student.o: ../Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/simple_database.dir/Student.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_database.dir/Student.o -c /home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp
+CMakeFiles/simple_database.dir/DataBase.cpp.o: CMakeFiles/simple_database.dir/flags.make
+CMakeFiles/simple_database.dir/DataBase.cpp.o: ../DataBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simple_database.dir/DataBase.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_database.dir/DataBase.cpp.o -c /home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp
 
-CMakeFiles/simple_database.dir/Student.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_database.dir/Student.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp > CMakeFiles/simple_database.dir/Student.i
+CMakeFiles/simple_database.dir/DataBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_database.dir/DataBase.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp > CMakeFiles/simple_database.dir/DataBase.cpp.i
 
-CMakeFiles/simple_database.dir/Student.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_database.dir/Student.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp -o CMakeFiles/simple_database.dir/Student.s
+CMakeFiles/simple_database.dir/DataBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_database.dir/DataBase.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp -o CMakeFiles/simple_database.dir/DataBase.cpp.s
 
-CMakeFiles/simple_database.dir/Student.o.requires:
+CMakeFiles/simple_database.dir/DataBase.cpp.o.requires:
 
-.PHONY : CMakeFiles/simple_database.dir/Student.o.requires
+.PHONY : CMakeFiles/simple_database.dir/DataBase.cpp.o.requires
 
-CMakeFiles/simple_database.dir/Student.o.provides: CMakeFiles/simple_database.dir/Student.o.requires
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/Student.o.provides.build
-.PHONY : CMakeFiles/simple_database.dir/Student.o.provides
+CMakeFiles/simple_database.dir/DataBase.cpp.o.provides: CMakeFiles/simple_database.dir/DataBase.cpp.o.requires
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/DataBase.cpp.o.provides.build
+.PHONY : CMakeFiles/simple_database.dir/DataBase.cpp.o.provides
 
-CMakeFiles/simple_database.dir/Student.o.provides.build: CMakeFiles/simple_database.dir/Student.o
+CMakeFiles/simple_database.dir/DataBase.cpp.o.provides.build: CMakeFiles/simple_database.dir/DataBase.cpp.o
+
+
+CMakeFiles/simple_database.dir/Student.cpp.o: CMakeFiles/simple_database.dir/flags.make
+CMakeFiles/simple_database.dir/Student.cpp.o: ../Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/simple_database.dir/Student.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simple_database.dir/Student.cpp.o -c /home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp
+
+CMakeFiles/simple_database.dir/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simple_database.dir/Student.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp > CMakeFiles/simple_database.dir/Student.cpp.i
+
+CMakeFiles/simple_database.dir/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simple_database.dir/Student.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp -o CMakeFiles/simple_database.dir/Student.cpp.s
+
+CMakeFiles/simple_database.dir/Student.cpp.o.requires:
+
+.PHONY : CMakeFiles/simple_database.dir/Student.cpp.o.requires
+
+CMakeFiles/simple_database.dir/Student.cpp.o.provides: CMakeFiles/simple_database.dir/Student.cpp.o.requires
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/Student.cpp.o.provides.build
+.PHONY : CMakeFiles/simple_database.dir/Student.cpp.o.provides
+
+CMakeFiles/simple_database.dir/Student.cpp.o.provides.build: CMakeFiles/simple_database.dir/Student.cpp.o
 
 
 # Object files for target simple_database
 simple_database_OBJECTS = \
-"CMakeFiles/simple_database.dir/main.o" \
-"CMakeFiles/simple_database.dir/DataBase.o" \
-"CMakeFiles/simple_database.dir/Student.o"
+"CMakeFiles/simple_database.dir/main.cpp.o" \
+"CMakeFiles/simple_database.dir/DataBase.cpp.o" \
+"CMakeFiles/simple_database.dir/Student.cpp.o"
 
 # External object files for target simple_database
 simple_database_EXTERNAL_OBJECTS =
 
-simple_database: CMakeFiles/simple_database.dir/main.o
-simple_database: CMakeFiles/simple_database.dir/DataBase.o
-simple_database: CMakeFiles/simple_database.dir/Student.o
+simple_database: CMakeFiles/simple_database.dir/main.cpp.o
+simple_database: CMakeFiles/simple_database.dir/DataBase.cpp.o
+simple_database: CMakeFiles/simple_database.dir/Student.cpp.o
 simple_database: CMakeFiles/simple_database.dir/build.make
 simple_database: CMakeFiles/simple_database.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable simple_database"
@@ -151,9 +151,9 @@ CMakeFiles/simple_database.dir/build: simple_database
 
 .PHONY : CMakeFiles/simple_database.dir/build
 
-CMakeFiles/simple_database.dir/requires: CMakeFiles/simple_database.dir/main.o.requires
-CMakeFiles/simple_database.dir/requires: CMakeFiles/simple_database.dir/DataBase.o.requires
-CMakeFiles/simple_database.dir/requires: CMakeFiles/simple_database.dir/Student.o.requires
+CMakeFiles/simple_database.dir/requires: CMakeFiles/simple_database.dir/main.cpp.o.requires
+CMakeFiles/simple_database.dir/requires: CMakeFiles/simple_database.dir/DataBase.cpp.o.requires
+CMakeFiles/simple_database.dir/requires: CMakeFiles/simple_database.dir/Student.cpp.o.requires
 
 .PHONY : CMakeFiles/simple_database.dir/requires
 

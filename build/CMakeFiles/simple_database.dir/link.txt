@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/simple_database.dir/main.o CMakeFiles/simple_database.dir/DataBase.o CMakeFiles/simple_database.dir/Student.o  -o simple_database -rdynamic 
+/usr/bin/c++      CMakeFiles/simple_database.dir/main.cpp.o CMakeFiles/simple_database.dir/DataBase.cpp.o CMakeFiles/simple_database.dir/Student.cpp.o  -o simple_database 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/simple_database.dir/main.o"
-  "CMakeFiles/simple_database.dir/DataBase.o"
-  "CMakeFiles/simple_database.dir/Student.o"
+  "CMakeFiles/simple_database.dir/main.cpp.o"
+  "CMakeFiles/simple_database.dir/DataBase.cpp.o"
+  "CMakeFiles/simple_database.dir/Student.cpp.o"
   "simple_database.pdb"
   "simple_database"
 )

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp" "/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles/simple_database.dir/DataBase.o"
-  "/home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp" "/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles/simple_database.dir/Student.o"
-  "/home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp" "/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles/simple_database.dir/main.o"
+  "/home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp" "/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles/simple_database.dir/DataBase.cpp.o"
+  "/home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp" "/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles/simple_database.dir/Student.cpp.o"
+  "/home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp" "/home/alicja/cpp_kurs_wakacyjny/simple_database/build/CMakeFiles/simple_database.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

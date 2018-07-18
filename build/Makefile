@@ -123,50 +123,86 @@ simple_database/fast:
 	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/build
 .PHONY : simple_database/fast
 
-# target to build an object file
-DataBase.o:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/DataBase.o
+DataBase.o: DataBase.cpp.o
+
 .PHONY : DataBase.o
 
-# target to preprocess a source file
-DataBase.i:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/DataBase.i
+# target to build an object file
+DataBase.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/DataBase.cpp.o
+.PHONY : DataBase.cpp.o
+
+DataBase.i: DataBase.cpp.i
+
 .PHONY : DataBase.i
 
-# target to generate assembly for a file
-DataBase.s:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/DataBase.s
+# target to preprocess a source file
+DataBase.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/DataBase.cpp.i
+.PHONY : DataBase.cpp.i
+
+DataBase.s: DataBase.cpp.s
+
 .PHONY : DataBase.s
 
-# target to build an object file
-Student.o:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/Student.o
+# target to generate assembly for a file
+DataBase.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/DataBase.cpp.s
+.PHONY : DataBase.cpp.s
+
+Student.o: Student.cpp.o
+
 .PHONY : Student.o
 
-# target to preprocess a source file
-Student.i:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/Student.i
+# target to build an object file
+Student.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+
 .PHONY : Student.i
 
-# target to generate assembly for a file
-Student.s:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/Student.s
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
 .PHONY : Student.s
 
-# target to build an object file
-main.o:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/main.o
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
+main.o: main.cpp.o
+
 .PHONY : main.o
 
-# target to preprocess a source file
-main.i:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/main.i
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
 .PHONY : main.i
 
-# target to generate assembly for a file
-main.s:
-	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/main.s
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
 .PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/simple_database.dir/build.make CMakeFiles/simple_database.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
