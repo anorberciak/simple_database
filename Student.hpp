@@ -3,14 +3,16 @@
 #include <string>
 #include <iostream>
 
-class Database {
+class Student {
 private:
     std::string name;
     std::string surname;
     int indexNumber;
 
 public:
-    Database();
+    Student(std::string&, std::string&, int&);
+    Student();
+    ~Student();
 
     std::string getName() const;
     std::string getSurname() const;
@@ -18,6 +20,9 @@ public:
     void setName(std::string);
     void setSurname(std::string);
     void setIndexNumber(int);
+
+
+
 };
 
 

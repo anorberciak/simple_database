@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.cpp
+DataBase.hpp
+/home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.hpp
+
+/home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.hpp
+Student.hpp
+/home/alicja/cpp_kurs_wakacyjny/simple_database/Student.hpp
+vector
+-
+map
+-
+string
+-
+iostream
+-
+
+/home/alicja/cpp_kurs_wakacyjny/simple_database/Student.cpp
+Student.hpp
+/home/alicja/cpp_kurs_wakacyjny/simple_database/Student.hpp
+
+/home/alicja/cpp_kurs_wakacyjny/simple_database/Student.hpp
+string
+-
+iostream
+-
+
+/home/alicja/cpp_kurs_wakacyjny/simple_database/main.cpp
+iostream
+-
+DataBase.hpp
+/home/alicja/cpp_kurs_wakacyjny/simple_database/DataBase.hpp
+

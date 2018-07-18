@@ -1,17 +1,17 @@
 #pragma once
 
-#include "Database.h"
+#include "Student.hpp"
 #include <vector>
 #include <map>
+#include <string>
+#include <iostream>
 
-class Student : public Database{
+class DataBase : public Student{
 
 private:
     std::map<int, Student> v;
 
 public:
-    Student();
-    Student(std::string&, std::string&, int&);
     void addNewStudent(std::string, std::string, int);
     void searchByIndexNumber(int);
     void deleteStudentByIndexNumber(int);

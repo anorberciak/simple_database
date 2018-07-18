@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Student.h"
+#include "DataBase.hpp"
 
 int main() {
 
-    Student s;
+    DataBase s;
     s.addNewStudent("John", "Doe", 12345);
     s.addNewStudent("Karolina", "Karolinska", 54321);
     s.searchByIndexNumber(54321);
