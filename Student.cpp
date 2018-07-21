@@ -1,40 +1,28 @@
-#include "Student.hpp"
+#include "Student.h"
 
-Student::Student(std::string& name, std::string& surname, int& indexNumber)
-{
-    this->name = "UnknownName";
-    this->surname = "UnknownSurname";
-    this->indexNumber = 0;
-}
-Student:: Student() {}
-Student:: ~Student() {}
+Student::Student(): Database(){};
 
-std::string Student::getName() const
+Student::Student(std::string& name_, std::string& surname_, int& indexNumber)
 {
-    return name;
+    setName(name_);
+    setSurname(surname_);
+    setIndexNumber(indexNumber);
 }
 
-std::string Student::getSurname() const
+void Student::addNewStudent(std::string name, std::string surname, int indexNumber)
 {
-    return surname;
+    v[indexNumber]=(Student(name, surname, indexNumber));
 }
 
-int Student::getIndexNumber() const
+void Student::deleteStudentByIndexNumber(int indexNumber)
 {
-    return indexNumber;
+    auto it = v.find(indexNumber);
+    v.erase(it);
 }
 
-void Student::setName(std::string name)
+void Student::searchByIndexNumber(int indexNumber)
 {
-    this->name = name;
-}
-
-void Student::setSurname(std::string surname)
-{
-    this->surname = surname;
-}
-
-void Student::setIndexNumber(int indexNumber)
-{
-    this->indexNumber = indexNumber;
+    std::cout << "Name: " << v[indexNumber].getName()
+              << " \nSurname: " << v[indexNumber].getSurname()
+              << " \nIndex number: " << v[indexNumber].getIndexNumber()<<std::endl;
 }
